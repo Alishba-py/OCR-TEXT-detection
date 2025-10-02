@@ -19,7 +19,7 @@ OCR-TEXT-detection/
 - Can be adapted for multiple images or PDFs  
 
 ## Requirements
-- Python 3.x  
+- Python 3.x 
 - OpenCV (`cv2`), Pillow (`PIL`), pytesseract, numpy  
 - Tesseract OCR installed on your machine  
 
@@ -28,7 +28,9 @@ OCR-TEXT-detection/
 ```bash
 pip install opencv-python pillow pytesseract numpy
 
-## Set Tesseract path in app.py if needed
+
+
+ Set Tesseract path in app.py if needed
 - pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Super\Tesseract-OCR\tesseract.exe'
 
 Run the script:
